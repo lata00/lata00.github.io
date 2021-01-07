@@ -1,3 +1,32 @@
 body {
-    background-color: powderblue;
-  }
+  background-color: Black;
+  //background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: White;
+  font-size: 40pt;
+}
+
+h2 {
+  text-align: left;
+  color: rgba(0, 255, 34, 0.986);
+  font-size: 20pt;
+}
+
+p {
+  text-align: left;
+  text-decoration: underline;
+  color: rgba(0, 255, 34, 0.986);
+  font-size: 20pt;
+}
+
+a {
+  text-align: left;
+  margin-left: 20px;
+  color: White;
+  font-size: 15pt;
+}
