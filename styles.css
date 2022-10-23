@@ -25,6 +25,16 @@ body {
 
   }
 
+  #footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: Black;
+    text-align: center;
+    font-family: "Courier New", monospace;
+  }
+
   /* @keyframes example {
     from {filter: hue-rotate(0deg);}
     to {filter: hue-rotate(360deg);}
