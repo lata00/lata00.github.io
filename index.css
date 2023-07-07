@@ -7,14 +7,14 @@ h1 {
   color: Black;
   font-size: 40pt;
 
-  font-family: "Consolas", monospace;
+  font-family: "Garamond", monospace;
 }
 
 h2 {
   text-align: center;
-  color:Black;
+  color:blue;
   font-size: 20pt;
-  font-family: "Consolas", monospace;
+  font-family: "Garamond", monospace;
 }
 
 h3 {
@@ -30,7 +30,7 @@ p {
   color:Black;
   font-size: 20pt;
   font-weight: bold;
-  font-family: "Courier New", monospace;
+  font-family: "Garamond", monospace;
 }
 
 a {
@@ -38,7 +38,7 @@ a {
   text-indent: 50px;
   color: red;
   font-size: 15pt;
-  font-family: "Courier New", monospace;
+  font-family: "Garamond", monospace;
   font-weight: 400;
 }
 
