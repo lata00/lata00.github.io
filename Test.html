@@ -1,21 +1,31 @@
+<!-- Tab links -->
 <head>
-    <link rel="stylesheet" href="test.css">
-    <script src="test.js"></script>
-    <!-- <video autoplay muted loop id="myVideo">
-      <source src="background.mp4" type="video/mp4">
-    </video> -->
-    <!-- <img id="myVideo" src ="images\P1121797 (2).jpg"> -->
-  </head>
-<div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h3 class="animate-character"> EKOSH</h3>
-      </div>
-    </div>
-  </div>
+  <link rel="stylesheet" href="test.css">
+  <script src="test.js"></script>
+  <!-- <video autoplay muted loop id="myVideo">
+    <source src="background.mp4" type="video/mp4">
+  </video> -->
+  <!-- <img id="myVideo" src ="images\P1121797 (2).jpg"> -->
+</head>
 
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
 </div>
 
-<div>
-  <h2 class='flipY'>flip horizontal</h2>
+<!-- Tab content -->
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
 </div>
