@@ -1,21 +1,21 @@
 body 
   {
-    background-color: Black
+    background-color: darkgray
   }
 h1 
   {
-    color:white
+    color:Black
   }
 h2
   {
-    color: White
+    color: black
   }
 p
   {
-    color:white
+    color:black
   }
 
 a
   {
-    color:Green
+    color:Blue
   }
