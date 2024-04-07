@@ -1,79 +1,21 @@
-body {
-  background-color: White
-}
+body 
+  {
+    background-color: Black
+  }
+h1 
+  {
+    color:white
+  }
+h2
+  {
+    color: White
+  }
+p
+  {
+    color:white
+  }
 
-h1 {
-  text-align: center;
-  color: Black;
-  font-size: 40pt;
-
-  font-family: "Garamond", monospace;
-}
-
-h2 {
-  text-align: center;
-  color:blacks;
-  font-size: 20pt;
-  font-family: "Garamond", monospace;
-}
-
-h3 {
-  text-align: left;
-  color: Black;
-  font-size: 12pt;
-  font-family: "Courier New", monospace;
-}
-
-h4 {
-  text-align: Center;
-  color: Black;
-  font-size: 12pt;
-  font-family: "Courier New", monospace;
-}
-
-p {
-  text-align: left;
-  text-decoration: underline;
-  color:Black;
-  font-size: 20pt;
-  font-weight: bold;
-  font-family: "Garamond", monospace;
-}
-
-a {
-  text-align: left;
-  text-indent: 50px;
-  color: red;
-  font-size: 15pt;
-  font-family: "Garamond", monospace;
-  font-weight: 400;
-}
-
-iframe{
-  display:block;
-  width: 75%; 
-  height: 65%;
-  margin-left: auto;
-  margin-right: auto;
-  z-index: 1;
-}
-
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-  display:block;
-  position: fixed;
-  z-index: -1;
-  /* filter: hue-rotate(90deg); */
-  background-attachment: fixed;
-}
-
-#footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: black;
-  text-align: center;
-  font-family: "Courier New", monospace;
-  font-size: 15pt;
-}
+a
+  {
+    color:Green
+  }
