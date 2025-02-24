@@ -19,3 +19,14 @@ a
   {
     color:Blue
   }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 10;
+  width: 100%;
+  color: Black;
+  text-align: center;
+  align-items: center;
+  font-family: "Courier New", monospace;
+}
