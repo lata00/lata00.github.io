@@ -30,3 +30,16 @@ footer {
   align-items: center;
   font-family: "Courier New", monospace;
 }
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+h1.dark-mode, h2.dark-mode, p.dark-mode, a.dark-mode {
+  color: #ffffff;
+}
+
+footer.dark-mode {
+  color: #ffffff;
+}

@@ -16,3 +16,18 @@ function updateClock() {
     document.getElementById("Date").innerHTML = m + "/" + d + "/" + y + "  " + h + ":" + min.substr(min.length-2,2) + ":" + sec.substr(sec.length-2,2);
     setTimeout(updateClock, 1000);
 }
+
+function toggleDarkMode() {
+  document.body.classList.toggle('dark-mode');
+  document.querySelectorAll('h1, h2, p, a, footer').forEach(element => {
+    element.classList.toggle('dark-mode');
+  });
+}
+
+// Add an event listener to toggle dark mode on button click
+document.addEventListener('DOMContentLoaded', () => {
+  const darkModeButton = document.createElement('button');
+  darkModeButton.innerText = 'Toggle Dark Mode';
+  darkModeButton.onclick = toggleDarkMode;
+  document.body.appendChild(darkModeButton);
+});
