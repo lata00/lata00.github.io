@@ -29,14 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const darkModeButton = document.createElement('button');
   darkModeButton.innerText = 'Toggle Dark Mode';
   darkModeButton.onclick = toggleDarkMode;
-  document.body.appendChild(darkModeButton);
-
-  const iframe = document.querySelector('iframe');
-  iframe.onload = () => {
-    const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
-    const links = iframeDocument.querySelectorAll('a');
-    links.forEach(link => {
-      link.setAttribute('target', '_blank');
-    });
-  };
+  const footer = document.querySelector('footer');
+  footer.appendChild(darkModeButton);
 });
+
