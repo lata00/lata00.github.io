@@ -33,3 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
   footer.appendChild(darkModeButton);
 });
 
+document.getElementById("test").addEventListener("click", function() {
+    window.open(this.src, "_blank");
+  }
+);

@@ -6,17 +6,33 @@
   <body>
     <h1>Marc Lata's Homepage</h1>
     <h2 id="Date"></h2>
-    <iframe 
+    <iframe id="test"
       src="https://buy.prints.io/p/1QwPKiGDDY07Qr55SEomhskl" 
       frameborder="0" width="1000 " height="500"
+      referrerpolicy="no-referrer" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation"
       allowpaymentrequest = "true"><base target="_blank">
     </iframe>
+  
     <iframe 
     src="https://buy.prints.io/p/1QwQGhGDDY07Qr55cfKs2kOD" 
     frameborder="0" width="1000 " height="500"
     allowpaymentrequest = "true"><base target="_blank">
   </iframe>
   </body>
+
+  <div style="position: relative; display: inline-block;">
+    <iframe id="buyNowIframe" src="https://buy.prints.io/p/1QwbNMGDDY07Qr55OfZuEBaN" width="1000" height="500" style="border: none;"></iframe>
+    <div id="iframeOverlay" 
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: transparent; cursor: pointer;">
+    </div>
+</div>
+
+<script>
+document.getElementById("iframeOverlay").addEventListener("click", function() {
+    const iframe = document.getElementById("buyNowIframe");
+    window.open(iframe.src, "_blank");
+});
+</script>
   
   <footer>
   </footer>
