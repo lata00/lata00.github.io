@@ -8,7 +8,7 @@
     <h2 id="Date"></h2>
 
     <div style="position: relative; display: inline-block;">
-      <iframe id="iframe" src="https://buy.prints.io/p/1QxAx0GDDY07Qr550MM35bdb" width="1000" height="500" style="border: none;"></iframe>
+      <iframe id="iframe1" src="https://buy.prints.io/p/1QxAx0GDDY07Qr550MM35bdb" width="1000" height="500" style="border: none;"></iframe>
       <div id="Sunset" 
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: transparent; cursor: pointer;">
       </div>
@@ -16,7 +16,21 @@
 
     <script>
       document.getElementById("Sunset").addEventListener("click", function() {
-      const iframe = document.getElementById("iframe");
+      const iframe = document.getElementById("iframe1");
+      window.open(iframe.src, "_blank");
+    });
+    </script>
+
+    <div style="position: relative; display: inline-block;">
+      <iframe id="iframe2" src="https://buy.prints.io/p/1QxCHkGDDY07Qr55gjZKWnGy" width="1000" height="500" style="border: none;"></iframe>
+      <div id="Bluebird" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: transparent; cursor: pointer;">
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("Bluebird").addEventListener("click", function() {
+      const iframe = document.getElementById("iframe2");
       window.open(iframe.src, "_blank");
     });
     </script>
