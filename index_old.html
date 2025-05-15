@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <h1>Marc Lata's Homepage</h1>
+    <h2 id="Date"></h2>
+
+    <div style="position: relative; display: inline-block;">
+      
+      <iframe id="iframe1"  src="https://buy.prints.io/p/1QxKa4GDDY07Qr55kl4lw7El" width="1000" height="500" style="border: none;"></iframe>
+      <p></p>
+      <div id="Sunset" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: transparent; cursor: pointer;">
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("Sunset").addEventListener("click", function() {
+      const iframe = document.getElementById("iframe1");
+      window.open(iframe.src, "_blank");
+    });
+    </script>
+
+    <div style="position: relative; display: inline-block;">
+      <iframe id="iframe2" class="centered-iframe" src="https://buy.prints.io/p/1QxGGPGDDY07Qr55IaYkzUEx" width="1000" height="500" style="border: none;"></iframe>
+      <p></p>
+      <div id="Bluebird"
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: transparent; cursor: pointer;">
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("Bluebird").addEventListener("click", function() {
+      const iframe = document.getElementById("iframe2");
+      window.open(iframe.src, "_blank");
+    });
+    </script>
+
+    <iframe id="iframe3" class="centered-iframe" src="https://marclata.pictorem.com" width="100%" height="100%" style="border: none;"></iframe>
+
+  </body>
+
+  <footer>
+  </footer>
+</html>
